@@ -3,7 +3,23 @@
 
 
 /* Highlight each row on rollover in a table */
-
+.product {
+    background-color: inherit;
+    transition: background-color 0.3s;
+}
+.product:hover {
+    background-color: #ff0;
+}
+table {
+    text-align: center;
+    border: 1px solid #000;
+    border-collapse: collapse;
+}
+td, th {
+    padding: 10px;
+    border: 1px solid #000;
+    text-align: center;
+}
 /*                                          */
 
 
