@@ -21,11 +21,16 @@ table {
     text-align: center;
     border: 1px solid #000;
     border-collapse: collapse;
+    float: left;
+    margin-right: 15px;
 }
 td, th {
     padding: 10px;
     border: 1px solid #000;
     text-align: center;
+}
+.clear {
+    clear: both;
 }
 /*                                          */
 
