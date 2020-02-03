@@ -1,5 +1,12 @@
 /* Color Palette of 5 colors */
-
+:root {
+    --color-one: #131515;
+    --color-two: #e2dcde;
+    --color-three: #88ccf1;
+    --color-four: #00abe7;
+    --color-five: #0e79b2;
+    --accent-one: #33ff3f;
+}
 
 
 /* Highlight each row on rollover in a table */
@@ -14,11 +21,16 @@ table {
     text-align: center;
     border: 1px solid #000;
     border-collapse: collapse;
+    float: left;
+    margin-right: 15px;
 }
 td, th {
     padding: 10px;
     border: 1px solid #000;
     text-align: center;
+}
+.clear {
+    clear: both;
 }
 /*                                          */
 
