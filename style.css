@@ -80,6 +80,20 @@ header > h1 {
 box-shadow: 0px 10px 10px #000; 
 }
 
+.box{
+    height: 400px;
+}
+
+#imageBCK{
+    background-image: 'https://theysaidso.com/img/bgs/man_on_the_mountain.jpg';
+}
+
+#qoute{
+    position: absolute;
+    left: 400px;
+    top: 500px;
+}
+
 
 #nav {
     background-color: #848484;
