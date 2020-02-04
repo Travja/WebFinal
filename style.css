@@ -79,6 +79,7 @@ header {
 h2, h1{
     text-align: center;
     margin-top: 10px;
+    font-family: 'AudioWide';
 }
 h3 {
     margin-top: 25px;
@@ -134,6 +135,7 @@ header > h1 {
     margin: 0;
     display: flex;
     align-items: stretch;
+    font-family: 'AudioWide';
 }
 
 #nav a {
