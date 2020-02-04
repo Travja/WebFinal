@@ -91,16 +91,23 @@ box-shadow: 0px 10px 10px #000;
     height: 400px;
 }
 
-#imageBCK{
-    background-image: 'https://theysaidso.com/img/bgs/man_on_the_mountain.jpg';
+#quote{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    color: white;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 1.5em;
+    text-shadow: 2px 2px 4px #000;
+    height: 400px;
+    width: 60%;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-position-x: center;
 }
-
-#qoute{
-    position: absolute;
-    left: 400px;
-    top: 500px;
-}
-
 
 #nav {
     background-color: #848484;
@@ -113,14 +120,20 @@ box-shadow: 0px 10px 10px #000;
     flex: 1;
     padding: 15px 10px;
     background-color: #000;
+    color: var(--color-four);
     display: flex;
     text-align: center;
     align-items: center;
     justify-content: center;
+    transition: background-color 0.5s;
 }
 
 #nav a:hover {
     background-color: #666;
+}
+
+#nav a:visited {
+    color: var(--color-four);
 }
 
 a#active {
