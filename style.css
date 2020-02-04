@@ -45,7 +45,7 @@ body {
     margin: 0 auto;
     padding: 0;
     width: 80%;
-    min-width: 300px;
+    min-width: 500px;
     background-color: #fff;
     border-radius: 10px;
     box-shadow: 5px 5px 10px #333;
@@ -55,11 +55,19 @@ body {
 section {
     width: 100%;
     padding: 15px;
+    padding-top: 5px;
     box-sizing: border-box;
 }
 header {
     margin-top: 20px;
     text-align: center;
+}
+#logo {
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
 }
 #bannerContainer {
     background-image: url("images/banner-background.png");
@@ -68,8 +76,12 @@ header {
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
-h2{
+h2, h1{
     text-align: center;
+    margin-top: 10px;
+}
+h3 {
+    margin-top: 25px;
 }
 header > h1 {
     text-align: center;
@@ -78,19 +90,26 @@ header > h1 {
 }
 
 #image {
+    background-image: url("images/image3.jpg");
     display: block;
     margin-left: auto;
-  margin-right: auto;
- -webkit-box-shadow: 0px 10px 10px #000; 
- -moz-box-shadow: 0px 10px 10px #000;
+    margin-right: auto;
+    height: 400px;
+    width: 50%;
+    border-radius: 5%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-box-shadow: 0px 10px 10px #000; 
+    -moz-box-shadow: 0px 10px 10px #000;
     -o-box-shadow: 0px 10px 10px #000;
-box-shadow: 0px 10px 10px #000; 
+    box-shadow: 0px 10px 10px #000; 
 }
 
 .box{
     height: 400px;
 }
-
+/* QUOTE */
 #quote{
     display: flex;
     justify-content: center;
@@ -104,10 +123,11 @@ box-shadow: 0px 10px 10px #000;
     width: 60%;
     margin: 0 auto;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: stretch;
     background-position: center;
     background-position-x: center;
 }
+/* ------------- */
 
 #nav {
     background-color: #848484;
@@ -140,3 +160,27 @@ a#active {
     background-color: var(--color-five);
     color: #fff;
 }
+
+footer {
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+/* Bar Graph */
+canvas {
+    background-color: #fff;
+    display: block;
+    margin: 0 auto;
+}
+legend {
+    text-align: center;
+    display: inline-block;
+}
+legend > ul {
+    list-style: none;
+    padding-left: 0;
+}
+legend > ul > li {
+    display: inline;
+}
+/* ----------- */

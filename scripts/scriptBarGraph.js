@@ -22,10 +22,10 @@ function drawBar(ctx, upperLeftCornerX, upperLeftCornerY, width, height,color){
 }
  
 var myVinyls = {
-    "Soda": 10,
-    "Chips": 14,
-    "Candy": 2,
-    "M&M": 12
+    "Soda": 798,
+    "Chips": 604,
+    "Candy": 1244,
+    "M&Ms": 476
 };
  
 var Barchart = function(options){
@@ -116,10 +116,10 @@ var Barchart = function(options){
 var myBarchart = new Barchart(
     {
         canvas:myCanvas,
-        seriesName:"Snacks Delivered",
-        padding:20,
-        gridScale:5,
-        gridColor:"#eeeeee",
+        seriesName:"Snacks Delivered YTD",
+        padding:30,
+        gridScale:400,
+        gridColor:"#999",
         data:myVinyls,
         colors:["#a55ca5","#67b6c7", "#bccd7a","#eb9743"]
     }
